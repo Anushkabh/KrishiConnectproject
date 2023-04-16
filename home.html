@@ -5,26 +5,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
     <title>Document</title>
 </head>
-
+ 
 <body>
-    <h1>Welcome</h1>
+    
+    <table cellspacing="20">
+    <tr>
+        <td><img class="img" src="images/logo.png" alt="" width="20%"; height="auto">
+        </td>
+       <td>
+        <h1 style="font-size:4vw;">KrishiConnect</h1>
+       </td> 
+    </tr>
+</table>
+    
+    <div id="in">
+        <h2>Enter The Details Of Product</h2>
     <form id="productform" ><br><br>
-
+         <div id="in">
         <input type="text" id="Product" name="product" placeholder="Product"><br><br>
-
-
+        </div>
+         <div id="in">
         <input type="text" id="category" name="category" placeholder="Category"><br><br>
-
+        </div>
+        <div id="in">
         <input type="number" id="quantity" name="quantity" placeholder="Quantity"> <input type="" id="unit" name="unit"
             placeholder="Unit"><br><br>
-
-
+        </div>
+        <div id="in">
         <input type="submit" value="Submit" id="submitform"><br>
+        </div>
         <h2 id="email"></h2>
-
-
+    </div>
+ <br>
+    <div style="overflow-x: auto;">
         <table>
             <thead>
                 <th>S no.
@@ -38,7 +54,7 @@
                 
             </tbody>
         </table>
-        
+    </div>    
             
 
         </script>
